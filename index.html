@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SASS Tutorial</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <nav class="navbar-green text-white mb-4">
+    <div class="container">
+      <h2 class="site-title">Shinobi CSS</h2>
+      <p>A lightweight CSS library for dev ninjas</p>
+    </div>
+  </nav>
+
+  <!-- colors -->
+  <div class="container"></div>
+    <h2>Colors</h2>
+    <span class="text-primary">primary text</span> | 
+    <span class="text-secondary">secondary text</span> | 
+    <span class="text-error">error text</span> | 
+    <span class="text-info">info text</span> | 
+
+    <br><br>
+
+    <span class="text-blue">blue text</span> | 
+    <span class="text-red">red text</span> |
+    <span class="text-green">green text</span> | 
+    <span class="text-yellow">yellow text</span> | 
+    <span class="text-purple">purple text</span> | 
+    <span class="text-orange">orange text</span> | 
+    <span class="text-gray">gray text</span>
+
+    <br><br>
+
+    <span class="bg-primary text-white">bg primary</span> |
+    <span class="bg-secondary text-white">bg secondary</span> |
+    <span class="bg-error text-white">bg error</span> |
+    <span class="bg-info text-white">bg info</span> |
+
+    <br><br>
+
+    <span class="bg-blue text-white">bg blue</span> |
+    <span class="bg-red text-white">bg red</span> |
+    <span class="bg-green text-white">bg green</span> |
+    <span class="bg-yellow text-white">bg yellow</span> |
+    <span class="bg-purple text-white">bg purple</span> |
+    <span class="bg-orange text-white">bg orange</span> |
+    <span class="bg-gray text-white">bg gray</span> |
+
+    <br><br>
+
+    <span class="bg-primary-dark-800 text-white">primary dark 800</span> |
+    <span class="bg-primary-dark-600 text-white">primary dark 600</span> |
+    <span class="bg-primary-dark-400 text-white">primary dark 400</span> |
+    <span class="bg-primary-dark-200 text-white">primary dark 200</span> |
+
+    <br><br>
+
+    <span class="bg-primary text-white">primary</span> |
+
+    <br><br>
+
+    <span class="bg-primary-light-200 text-white">primary light 200</span> |
+    <span class="bg-primary-light-400 text-white">primary light 400</span> |
+    <span class="bg-primary-light-600 text-white">primary light 600</span> |
+    <span class="bg-primary-light-800 text-white">primary light 800</span> |
+
+    <!-- font sizes -->
+
+
+    <hr class="mt-2 mb-2">
+
+    <!-- buttons -->
+    <h2>Buttons</h2>
+    <a href="#" class="btn text-black text-black-hover">default btn</a>
+    <a href="#" class="btn-primary">click me</a>
+    <a href="#" class="btn-secondary">click me</a>
+    <a href="#" class="btn-error">click me</a>
+    <a href="#" class="btn-info">click me</a>
+    <a href="#" class="btn-purple-outlined">click me</a>
+    <a href="#" class="btn-orange-outlined">click me</a>
+    <a href="#" class="btn-purple-complement">click me</a>
+    <a href="#" class="btn-primary-complement">click me</a>
+
+    <hr class="mt-2 mb-2">
+
+    <!-- cards -->
+    <h2 class="text-primary-dark-400-hover">Cards</h2>
+    <div class="card bg-primary-light-600">
+      <h1 class="card-title text-primary-dark-500">This is a title</h1>
+      <p class="card-body text-primary-dark-900">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sunt, quo totam aliquam praesentium ducimus tempore sapiente quia nulla optio? Lorem ipsum, dolor sit amet consectetur <a href="">adipisicing elit</a>. Libero laboriosam laborum exercitationem autem commodi voluptas odio aliquid ut velit doloremque minima, quaerat dolores, corporis consequuntur totam nam id veniam maxime.</p>
+
+      <button class="btn-primary mt-2">Button</button>
+    </div>
+
+    <!-- grid system -->
+    <hr class="mt-2 mb-2">
+    
+    <div class="responsive-test">HELLO WORLD!</div>
+
+    <h2 class="mb-2">Grid System</h2>
+    <div class="row justify-space-around">
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card">
+          <h3 class="card-title">Hello, ninjas</h3>
+          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card">
+          <h3 class="card-title">Hello, ninjas</h3>
+          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-12-xs col-6-sm col-3-xl">
+        <div class="card">
+          <h3 class="card-title">Hello, ninjas</h3>
+          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-12-xs col-6-sm col-3-xl">
+        <div class="card">
+          <h3 class="card-title">Hello, ninjas</h3>
+          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mt-2 mb-2">
+    
+   <!-- utilities -->
+    <h2>Using Utilities</h2>
+    <div class="mt-2 text-orange-dark-2 bg-orange-light-5 p-2 br-xs">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</p>
+    </div>
+    <div class="mt-2 text-secondary-dark-2 bg-secondary-light-5 p-2 br-lg">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</p>
+    </div>
+    <div class="display-i-b bg-purple text-white o-10 mt-3 mr-3 p-2">opacity 10</div>
+    <div class="display-i-b bg-purple text-white o-30 mt-3 mr-3 p-2">opacity 30</div>
+    <div class="display-i-b bg-purple text-white o-50 mt-3 mr-3 p-2">opacity 50</div>
+    <div class="display-i-b bg-purple text-white o-70 mt-3 mr-3 p-2">opacity 70</div>
+    <div class="display-i-b bg-purple text-white o-90 mt-3 mr-3 p-2">opacity 90</div>
+
+    <hr class="mt-4 mb-4">
+  </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+// Abstract files
+@import "./abstract/variables", "./abstract/functions", "./abstract/mixins", "./abstract/extend";
+// Base files
+@import "./base/colors", "./base/reset", "./base/typography", "./base/grid";
+// Component files
+@import "./components/button", "./components/card", "./components/parts";
+// Layout files
+@import "./layout/navbar", "./layout/footer", "./layout/header";
+// Pages files
+@import "./pages/home", "./pages/register";
+// Theme files
+@import "./theme/theme";
+// Vendor files 
+@import "./vendors/bootstrap";
+
+// Utilities file
+@import "./base/utilities";

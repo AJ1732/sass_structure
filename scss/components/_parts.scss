@@ -1,0 +1,27 @@
+span {
+  display: inline-block;
+  padding-inline: $padding-base;
+  margin-bottom: $margin-base;
+  border-radius: 3px;
+}
+.error {
+  color: $error;
+  border-color: $error;
+  border-style: solid;
+
+  margin: $margin-base;
+  padding: $padding-base;
+  border-radius: $border-radius-base;
+  border-width: $border-thickness-base;
+}
+
+.notification {
+  color: $secondary;
+  border-color: $secondary;
+  border-style: solid;
+
+  margin: $margin-base;
+  padding: $padding-base;
+  border-radius: $border-radius-base;
+  border-width: $border-thickness-base;
+}

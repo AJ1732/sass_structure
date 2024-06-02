@@ -1,0 +1,42 @@
+@use 'sass:color';
+
+.btn {
+  @include btn();
+  color: black;
+
+  &:hover {
+    color: black;
+  }
+}
+
+@each $key, $val in $colors {
+  .btn-#{$key} {
+    @include btn($val);
+    
+    &:hover {
+      background-color: color.scale($val, $lightness: 85%);;
+    } 
+  }
+
+  .btn-#{$key}-outlined {
+    @include btn($val);
+    color: $val;
+    background-color: color.scale($val, $lightness: 95%);
+    border: $border-thickness-base solid $val;
+    
+    &:hover {
+      color: white;
+      background-color: $val;
+    }
+  }
+  
+  .btn-#{$key}-complement {
+    @include btn($val);
+    color: light-comp($val);
+    
+    &:hover {
+      color: white;
+      background-color: light-comp($val);
+    }
+  }
+}
